@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+/* أنماط عامة */
+* {
+    direction: rtl;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* أنماط الكاروسيل */
+.carousel-item img {
+    height: 90vh;
+}
+
+.arrowicons {
+    font-size: 40px !important;
+    color: rgb(255, 255, 255);
+    background-color: #0000004b;
+    padding: 3px 6px;
+}
+
+.carousel-caption {
+    background-color: rgba(48, 45, 45, 0.5);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.carousel-indicators button {
+    padding-bottom: 10px;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: rgb(161, 235, 235);
+}
+
+/* أنماط العناوين */
+.container .title {
+    width: fit-content;
+    border-width: 5px !important;
+    border-radius: 5px !important;
+}
+
+/* أنماط الخلفية */
+.back {
+    background: url(https://img.freepik.com/free-vector/red-black-patterned-background-vector_53876-63162.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming) center no-repeat fixed;
+    background-size: cover;
+    height: 40vh !important;
+}
+
+/* أنماط الصور داخل الأقسام */
+.container .ff .gg img {
+    height: 80%;
+}
+
+.dd {
+    min-height: 50vh;
+}
+
+.dd img {
+    height: 100%;
+}
+
+.fixed-img {
+    height: 250px; /* تثبيت ارتفاع الصور */
+    object-fit: cover; /* لضبط الصورة داخل الإطار دون تشويه */
+}
+
+.shadow .fixed-img {
+    height: 250px; /* تثبيت ارتفاع الصور */
+    object-fit: cover; /* لضبط الصورة داخل الإطار دون تشويه */
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* أنماط الفوتر */
+footer.kk {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.text-gold {
+    color: #D4AF37; /* لون ذهبي */
+}
+
+.border-gold {
+    border-color: #D4AF37 !important; /* لون ذهبي */
+}
+
+.hover-gold:hover {
+    color: #D4AF37 !important; /* لون ذهبي عند التمرير */
+    transition: color 0.3s ease;
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+/* أنماط الأقسام الخاصة */
+section.ll {
+    color: aliceblue;
+    background: url(https://img.freepik.com/free-vector/red-black-patterned-background-vector_53876-63162.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming) center no-repeat fixed;
+    background-size: cover;
+    height: 40vh !important;
+    padding-top: 60px !important;
+}
+footer{
+  background-color: rgba(13, 110, 253, 0.8);
+}

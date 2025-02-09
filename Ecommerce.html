@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- main css file-->
+  <link rel="stylesheet" href="temp/css/style.css">
+
+  <link rel="stylesheet" href="temp/css/normlize.css">
+  <!-- file font aswoms-->
+  <link rel="stylesheet" href="temp/css/all.min.css">
+  <!-- cdn  css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="temp/imeges/ficon.avif" type="image/x-icon">
+  <title>متجر إلكتروني عصري</title>
+</head>
+<body>
+<!-- navbar &&& carousel -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34862.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+      alt="user" width="50px" height="50px" class=" rounded-circle ">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto text-light">
+          <li class="nav-item ">
+            <a class="nav-link text-light active" aria-current="page" href="#">الرئيسية</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-light " href="#" >من نحن </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#"
+             id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              المنتجات
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">العروض</a></li>
+              <li><a class="dropdown-item" href="#">أصناف</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">الهدايا</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light " href="#" tabindex="-1" aria-disabled="true">الخدمات</a>
+          </li>
+        </ul>
+      </div>
+        <div class="text-light">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>السلة</span>
+        </div>  
+    </div>
+  </div>
+</nav>
+
+  <div id="carouselExampleDark" class="carousel  carousel-light slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img
+          src="https://img.freepik.com/free-vector/luxury-realistic-male-suit-background-with-jacket-tie_52683-151924.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="d-block w-100" alt="3...">
+        <div class="carousel-caption w-50 mx-auto mb-5  d-md-block">
+          <h5>أهلا وسهلا بكم</h5>
+          <p>أهلا وسهلا بكم تشرفنا بزيارتكم لموقعنا.</p>
+          <button class="btn bg-dark rounded-1 text-light">تسوق الآن </button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img
+          src="https://img.freepik.com/free-photo/well-dressed-businessman-holding-currency-with-confidence-generated-by-ai_188544-16970.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="d-block w-100" alt="2...">
+        <div class="carousel-caption w-50 mx-auto mb-5  d-md-block">
+          <h5>أهلا وسهلا بكم</h5>
+          <p>أهلا وسهلا بكم تشرفنا بزيارتكم لموقعنا.</p>
+          <button class="btn bg-dark rounded-1 text-light border-danger">تسوق الآن </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.freepik.com/premium-photo/plain-black-background-investigations-plain-black-background-solid-black-backdrop-design_1020697-740799.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="d-block w-100" alt="1...">
+        <div class="carousel-caption w-50 mx-auto mb-5  d-md-block">
+          <h5>أهلا وسهلا بكم</h5>
+          <p>أهلا وسهلا بكم تشرفنا بزيارتكم لموقعنا.</p>
+          <button class="btn bg-dark rounded-1 text-light border-danger ">تسوق الآن </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <i class="fa-solid fa-angles-left arrowicons d-none d-md-block" ></i>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <i class="fa-solid fa-angles-right arrowicons d-none d-md-block" ></i>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- ========================================================================== -->
+<div class="container text-center mt-5">
+  <h5 class="border-bottom border-danger  mx-auto pb-2  title">المنتجات</h5>
+  <div class="row m-auto mt-4 w-50  text-light">
+    <ul class="row">
+      <li class="col-12 col-sm-6 col-md-3 bg-primary p-2 rounded ">الكل</li>
+      <li class="col-12 col-sm-6 col-md-3 bg-primary p-2 rounded ">الأكثر مبيعاً</li>
+      <li class="col-12 col-sm-6 col-md-3 bg-primary p-2 rounded ">السمات</li>
+      <li class="col-12 col-sm-6 col-md-3 bg-primary p-2 rounded ">الأحداث</li>
+
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="row text-center">
+    <!-- المنتج 1 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/free-psd/classic-black-tuxedo-suit-menswear-formal-wear-elegant-style-mens-fashion-black-bow-tie-white-shirt-stylish-outfit-wedding-attire_632498-30734.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="بدلة رجالية أنيقة" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">بدلة رجالية أنيقة</h4>
+          <p class="text-muted">تصميم عصري يناسب المناسبات الرسمية.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$199</span>
+            <span class="text-decoration-line-through text-muted">$250</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 20%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 2 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/free-psd/floating-white-sneaker-minimalist-shoe-design_191095-80028.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="حذاء رياضي أبيض" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">حذاء رياضي أبيض</h4>
+          <p class="text-muted">مريح وعصري للأنشطة اليومية.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$89</span>
+            <span class="text-decoration-line-through text-muted">$120</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 25%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 3 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/premium-photo/denim-jeans-jacket-hanger-isolated-white_488220-17878.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="جاكيت جينز نسائي" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">جاكيت جينز نسائي</h4>
+          <p class="text-muted">تصميم أنيق يناسب جميع الفصول.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$75</span>
+            <span class="text-decoration-line-through text-muted">$100</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 25%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 4 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/free-vector/white-retro-woman-dress-wedding-party_1441-4231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+             alt="فستان أبيض أنيق" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">فستان أبيض أنيق</h4>
+          <p class="text-muted">مثالي للحفلات والمناسبات الخاصة.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$129</span>
+            <span class="text-decoration-line-through text-muted">$150</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 15%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 5 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/premium-photo/abaya-shoot-mannequin-isolated-white-background_924552-85.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+             alt="فستان أسود كلاسيكي" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">فستان أسود كلاسيكي</h4>
+          <p class="text-muted">أناقة لا تنتهي مع هذا الفستان.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$99</span>
+            <span class="text-decoration-line-through text-muted">$130</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 25%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 6 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/premium-photo/mens-summer-leather-laceup-sneakers-white-background-isolation_185667-18762.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+           alt="حذاء رياضي أسود" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">حذاء رياضي أسود</h4>
+          <p class="text-muted">مثالي للرياضة والأنشطة اليومية.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$79</span>
+            <span class="text-decoration-line-through text-muted">$110</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 30%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 7 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/premium-photo/clothes-hanging-washing-line-dry-nature-trendy-presentation-cloths-fashion_96943-417.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="فستان أبيض صيفي" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">فستان أبيض صيفي</h4>
+          <p class="text-muted">خفة وأناقة لفصل الصيف.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$89</span>
+            <span class="text-decoration-line-through text-muted">$120</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 25%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- المنتج 8 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 mt-5">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="https://img.freepik.com/free-photo/shirt-hanger-with-green-background_23-2150264158.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="فستان أسود أنيق" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title fw-bold">بلوزة قطني</h4>
+          <p class="text-muted">تصميم كلاسيكي يناسب جميع المناسبات.</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="text-danger fs-5 fw-bold me-2">$109</span>
+            <span class="text-decoration-line-through text-muted">$140</span>
+          </div>
+          <span class="badge bg-success mt-2">خصم 20%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ========================================================================== -->
+<div class="back text-light text-center mt-5 p-5 m-auto ">
+  <h3 class="mx-auto p-2 mb-4 text-warning " id="we">تواصل معنا</h3>
+  <p>
+    يقدم لك موقعنا تجربة جديدة ومعاصرة وفريدة من نوعها في عالم التسوق ومع تسوق الكتروني ممتع وسهل فالاستخدام عند
+    الحاجة الة شراء اي نوع من المنتجات <br>
+    والاجهزة نؤكد لك انك ستعثر على شئ يسرك ويعجبك
+  </p>
+  <div class="input-group   mb-3 w-75  mx-auto">
+    <input type="text" class="form-control" placeholder="اكتب هنا" aria-label="Example text with button addon"
+      aria-describedby="button-addon1">
+    <button class="btn  bg-primary  text-light w-25" type="button" id="button-addon1">
+      إرسال
+    </button>
+  </div>
+</div>
+<!-- ========================================================================== -->
+<div class="container">
+  <div>
+    <h4 class="border-bottom border-danger  mx-auto mt-5 mb-5 pb-2 title">
+      طلبية خاصة
+    </h4>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="validationServer01" class="form-label">الإسم الأول</label>
+        <input type="text" class="form-control is-valid" id="validationServer01" value="Hasooon">
+      </div>
+      <div class="col-md-6">
+        <label for="validationServerUsername" class="form-label">البريد الإلكتروني</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+          <input type="text" class="form-control is-valid " id="validationServerUsername"
+            aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" value="user@gmail.com">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationServer03" class="form-label">المدينة</label>
+        <input type="text" class="form-control is-valid " id="validationServer03"
+          aria-describedby="validationServer03Feedback" value="Gaza">
+      </div>
+      <div class="col-md-9">
+        <label for="validationServer05" class="form-label">عنوان الرسالة </label>
+        <input type="text" class="form-control is-valid " id="validationServer05"
+          aria-describedby="validationServer05Feedback">
+      </div>
+      <div class="col-12">
+        <label for="validationServer05" class="form-label">تفاصيل الطلبية </label>
+        <input type="text" class="form-control is-valid " id="validationServer05"
+          aria-describedby="validationServer05Feedback">
+      </div>
+
+      <div class="col-12 text-center mt-4 mb-5">
+        <button class="btn btn-primary w-25" type="submit">إرسال</button>
+      </div>
+    </form>
+  </div>
+  <div></div>
+</div>
+<!-- ========================================================================== -->
+<div class="container">
+  <div class="text-center">
+    <h4 class="d-inline-block border-bottom border-danger mb-5 pb-1 fs-2 title" >
+      المنتجات الأكثر طلباً</h4>
+  </div>
+  <div class="row  ">
+    <!-- text-center -->
+    <div class="col-12 col-sm-6 col-md-3 mb-5 ">
+      <p class="fs-3">الأكثر تقييماً</p>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/row-shirts-hanging-hanger-with-one-that-says-t-shirt_1103290-49155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>تيشيرت قطني</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-psd/elegant-black-formal-suit-business-special-occasions-transparent-background_84443-26552.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم زفاف</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/overhead-view-womans-casual-outfits_1210371-1740.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>بدلة رجالي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-photo/overhead-view-womans-casual-outfits_93675-134231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم بيتي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-3 mb-5">
+      <p class="fs-3">الأكثر مبيعا</p>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/overhead-view-womans-casual-outfits_1210371-1740.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>بدلة رجالي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-psd/elegant-black-formal-suit-business-special-occasions-transparent-background_84443-26552.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم زفاف</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/row-shirts-hanging-hanger-with-one-that-says-t-shirt_1103290-49155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>تيشيرت قطني</h6>
+          <span>160$</span>
+        </div>
+      </div>
+
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-photo/overhead-view-womans-casual-outfits_93675-134231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم بيتي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-3 mb-5">
+      <p class="fs-3">العروض</p>
+
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/overhead-view-womans-casual-outfits_1210371-1740.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>بدلة رجالي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-photo/overhead-view-womans-casual-outfits_93675-134231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم بيتي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/row-shirts-hanging-hanger-with-one-that-says-t-shirt_1103290-49155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>تيشيرت قطني</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-psd/elegant-black-formal-suit-business-special-occasions-transparent-background_84443-26552.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم زفاف</h6>
+          <span>160$</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-3 mb-5">
+      <p class="fs-3">الهدايا</p>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/row-shirts-hanging-hanger-with-one-that-says-t-shirt_1103290-49155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>تيشيرت قطني</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-psd/elegant-black-formal-suit-business-special-occasions-transparent-background_84443-26552.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم زفاف</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/premium-photo/overhead-view-womans-casual-outfits_1210371-1740.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>بدلة رجالي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+      <div class="row  ms-1 ">
+        <img
+          src="https://img.freepik.com/free-photo/overhead-view-womans-casual-outfits_93675-134231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          alt="" class="w-50 mb-2 border border-secondary rounded p-1 ">
+        <div class=" col m-auto">
+          <h6>طقم بيتي</h6>
+          <span>160$</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- card -->
+<div class="container py-5">
+  <div class="text-center">
+    <h4 class="d-inline-block border-bottom border-danger mb-5 pb-1 fs-2 title" >
+      المنتجات المتاحة الآن</h4>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/premium-photo/row-shirts-hanging-hanger-with-one-that-says-t-shirt_1103290-49155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="تيشيرت قطني">
+        <div class="card-body text-center">
+          <h5 class="card-title">تيشيرت قطني</h5>
+          <p class="card-text ">مصنوع من القطن عالي الجودة، مثالي للراحة اليومية.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-psd/elegant-black-formal-suit-business-special-occasions-transparent-background_84443-26552.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="بدلة زفاف">
+        <div class="card-body text-center">
+          <h5 class="card-title">بدلة زفاف</h5>
+          <p class="card-text ">تصميم أنيق ومثالي للمناسبات الرسمية وحفلات الزفاف.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/premium-photo/overhead-view-womans-casual-outfits_1210371-1740.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="طقم خارجي">
+        <div class="card-body text-center">
+          <h5 class="card-title">طقم خارجي</h5>
+          <p class="card-text ">طقم عصري مميز للخروجات والمناسبات اليومية.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-photo/overhead-view-womans-casual-outfits_93675-134231.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="طقم بيتي">
+        <div class="card-body text-center">
+          <h5 class="card-title">طقم بيتي</h5>
+          <p class="card-text ">راحة وأناقة في المنزل مع هذا الطقم المميز.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- أقسام جديدة -->
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-photo/mens-classic-leather-shoes_1203-7935.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="حذاء رسمي">
+        <div class="card-body text-center">
+          <h5 class="card-title">حذاء رسمي</h5>
+          <p class="card-text ">حذاء جلدي فاخر للمناسبات الرسمية والعمل.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-photo/luggage-hotel-room_53876-33569.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="حقيبة ظهر">
+        <div class="card-body text-center">
+          <h5 class="card-title">حقيبة السفر</h5>
+          <p class="card-text ">حقيبة عملية وعصرية لحمل أغراضك بسهولة.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-photo/glasses-cup-coffee-break-concept_53876-47090.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="نظارات شمسية">
+        <div class="card-body text-center">
+          <h5 class="card-title">نظارات شمسية</h5>
+          <p class="card-text ">حماية وأناقة مع أحدث تصاميم النظارات الشمسية.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm shadow">
+        <img
+          src="https://img.freepik.com/free-psd/watch-isolated-transparent-background_191095-27096.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+          class="card-img-top fixed-img" alt="ساعة يد">
+        <div class="card-body text-center">
+          <h5 class="card-title">ساعة يد</h5>
+          <p class="card-text text-center">ساعة أنيقة لإضافة لمسة مميزة لإطلالتك الانيقة.</p>
+          <button class="btn btn-primary  w-50 fs-4">شراء</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- قسم المعلومات -->
+<section class="container my-5 text-center">
+  <h2 class="mb-4 border-bottom border-danger  mx-auto pb-2  title">لماذا معرض الملابس هو خيارك الأفضل؟</h2>
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/free-photo/young-girl-choosing-jeans_1398-4104.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="ملابس وستايلات جذابة ">
+      <h4 class="mt-3">أحدث المعدات</h4>
+      <p>نوفر أحدث الملابس وستايلات جذابة بجودة عالية وأسعار منافسة.</p>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/free-photo/shop-consultant-man-choosing-suit-looking-mannequin_7502-4366.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="خدمة ممتازة">
+      <h4 class="mt-3">خدمة متميزة</h4>
+      <p>نضمن لك تجربة شراء رائعة وخدمات صيانة واستشارة مجانية.</p>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/premium-photo/discount-sale-tags-20-30-50-off-hangers-with-clothes-casual-clothing-store-fashion-concept-discount-season-black-friday-offline-shopping-gimmicks-holiday-sales_91130-618.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="أسعار مميزة">
+      <h4 class="mt-3">أسعار تنافسية</h4>
+      <p>احصل على أفضل الأسعار والعروض الحصرية لعملائنا المميزين.</p>
+    </div>
+  </div>
+</section>
+<!-- أقسام إضافية -->
+<section class="container my-5 text-center">
+  <h2 class="border-bottom border-danger  mx-auto pb-2  title">المزيد عن خدماتنا</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/free-photo/top-view-tools-marketing_1134-83.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="خدمات التركيب">
+      <h4 class="mt-3"><i class="fas fa-hammer"></i> خدمات التركيب</h4>
+      <p>نقدم خدمات تركيب احترافية لجميع أنواع الأدوات والمعدات.</p>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/premium-photo/electrical-equipment-various-electric-products-store-shelve_106035-315.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="معدات كهربائية">
+      <h4 class="mt-3"><i class="fas fa-bolt"></i> معدات كهربائية</h4>
+      <p>جميع المعدات الكهربائية المتوفرة بأحدث التقنيات.</p>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://img.freepik.com/free-photo/builder-uniform-wooden-background-flat-lay_169016-24237.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming"
+        class="img-fluid rounded" alt="معدات الأمان">
+      <h4 class="mt-3"><i class="fas fa-shield-alt"></i> معدات الأمان</h4>
+      <p>نوفر مجموعة كبيرة من معدات السلامة المهنية عالية الجودة.</p>
+    </div>
+  </div>
+</section>
+<!-- ======================================================= -->
+<section class="container mف-5 text-center ll">
+  <h2 class=" mb-4 text-warning">آراء عملائنا</h2>
+  <div id="customerReviews" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <blockquote class="blockquote">
+          <p class="mb-4">"خدمة رائعة ومنتجات عالية الجودة. أنصح الجميع بالتسوق من هنا!"</p>
+          <footer class="blockquote-footer text-warning">أحمد علي</footer>
+        </blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="blockquote">
+          <p class="mb-4">"تجربة تسوق ممتازة ودعم فني متجاوب."</p>
+          <footer class="blockquote-footer text-warning">سارة محمد</footer>
+        </blockquote>
+      </div>
+      <!-- أضف المزيد من آراء العملاء هنا -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#customerReviews" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">السابق</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#customerReviews" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">التالي</span>
+    </button>
+  </div>
+</section>
+<!-- ======================================================= -->
+<section class="container my-5 tcenter">
+  <h2 class="text-center mb-4 border-bottom border-danger  mx-auto pb-2  title">من مدونتنا</h2>
+  <p class="text-center text-muted">اكتشف أحدث المقالات حول عالم الأزياء والموضة، وتعلم كيفية تنسيق إطلالاتك بأناقة.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card h-100">
+      
+        <img src="https://img.freepik.com/premium-photo/white-bathrobe_63253-6155.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming" class="card-img-top" alt="تنسيق الملابس العصرية">
+        <div class="card-body">
+          <h5 class="card-title">كيفية تنسيق الملابس العصرية بأسلوب أنيق</h5>
+          <p class="card-text">اكتشف أسرار تنسيق الملابس بأسلوب عصري وأنيق، مع نصائح لاختيار الألوان والإكسسوارات التي تعزز من جاذبيتك.</p>
+          <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mh-100">
+        <img src="https://img.freepik.com/free-vector/hipster-man-different-personal-items_1308-2323.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming " class="card-img-top" alt="أحدث صيحات الموضة">
+        <div class="card-body">
+          <h5 class="card-title">أحدث صيحات الموضة لعام 2025</h5>
+          <p class="card-text">تعرف على أبرز صيحات الموضة لهذا العام، من الألوان الرائجة إلى التصاميم العصرية التي يجب أن تكون في خزانتك.</p>
+          <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mh-100">
+        <img src="https://img.freepik.com/premium-vector/girl-wearing-dress-holding-purse_388558-1633.jpg?ga=GA1.1.273946594.1737888839&semt=ais_incoming" class="card-img-top" alt="اختيار الملابس حسب الموسم">
+        <div class="card-body">
+          <h5 class="card-title">دليل اختيار الملابس المناسبة لكل موسم</h5>
+          <p class="card-text">تعرف على كيفية اختيار الملابس المناسبة لكل فصل من فصول السنة، مع نصائح حول الأقمشة والتصاميم التي تمنحك الراحة والأناقة.</p>
+          <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======================================================= -->
+<section class="container my-5">
+  <h2 class="text-center mb-4 border-bottom border-danger  mx-auto pb-2  title">الأسئلة الشائعة</h2>
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          ما هي سياسات الإرجاع؟
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          نقبل إرجاع المنتجات خلال 30 يومًا من تاريخ الشراء بشرط أن تكون في حالتها الأصلية.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          كيف يمكنني تتبع طلبي؟
+        </button>
+      </h2>
+    </div>
+  </div>
+</section>
+  <!--==========================================================  -->
+<!-- الفوتر الفاخر -->
+<footer class=" text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- القسم الأول: معلومات الاتصال -->
+      <div class="col-md-4 mb-4 text-center">
+        <h4 class="text-warning mb-4">معرض الملابس الفاخرة</h4>
+        <p class="text-light">
+          نقدم لكم أحدث صيحات الموضة العالمية بجودة عالية وأسعار تنافسية. نحن هنا لنساعدكم في العثور على ما يناسبكم.
+        </p>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt text-warning me-2"></i>
+            العنوان: غزة، شارع النصر، فلسطين
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-phone text-warning me-2"></i>
+            الهاتف: +970 123 456 789
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-envelope text-warning me-2"></i>
+            البريد الإلكتروني: info@malabis.com
+          </li>
+        </ul>
+      </div>
+
+      <!-- القسم الثاني: روابط سريعة -->
+      <div class="col-md-4 text-center">
+        <h4 class="text-warning mb-4">روابط سريعة</h4>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="#" class="text-light text-decoration-none hover:text-warning">الرئيسية</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-light text-decoration-none hover:text-warning">من نحن</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-light text-decoration-none hover:text-warning">المنتجات</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-light text-decoration-none hover:text-warning">اتصل بنا</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- القسم الثالث: وسائل التواصل الاجتماعي -->
+      <div class="col-md-4 mb-4 text-center">
+        <h4 class="text-warning mb-4">تابعنا</h4>
+        <p class="text-light">
+          تابعنا على وسائل التواصل الاجتماعي لتصلك آخر العروض والأخبار.
+        </p>
+        <div class="social-icons d-flex gap-3 ">
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#" class="text-light fs-4 hover:text-warning mx-auto ">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- حقوق النشر -->
+    <div class="text-center border-top border-light pt-3">
+      <p class="text-light mb-0">
+        &copy; 2025 معرض الملابس الفاخرة. جميع الحقوق محفوظة Hasan-Alqedra
+      </p>
+    </div>
+  </div>
+</footer>
+  <!--==========================================================  -->
+  <!-- cdn js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
